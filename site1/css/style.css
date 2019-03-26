@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
 }
 
-.cabecalho {
+.cabecalho { 
     text-align: center;
 }
 
@@ -21,16 +21,19 @@ body{
 }
 
 .container{
-    margin:0 auto;
-    margin-top: 50px;
-    width: 900px;
-
+    display: flex; 
+    justify-content:center;
+    align-items: center; 
+    width: 70%;
+    margin:0 auto; 
 }
+
+
 
 .container__conteudo , .container__ilustracao {
     display:inline-block;
-    width: 400px;
-    margin: 0 20px;
+    width: 40%;
+    margin: 0 2.2%;
     vertical-align: middle; 
 }
 
@@ -39,7 +42,7 @@ body{
     margin: 10px 0 ; 
 }
 .ilustracao__gif{
-    width:300px;
+    width:100%;
 }
 
 .conteudo__btn--roxo{
@@ -61,3 +64,19 @@ body{
     font-family: "Montserrat" , 'sens-serif';
     text-transform: uppercase; 
 }
+
+@media(max-width: 500px) {.container{ 
+    flex-direction: column;}
+    
+    .container{
+        flex-wrap: wrap; 
+    }
+     .container__conteudo , .container__ilustracao {
+        width: 100%; 
+        margin-bottom: 5%; 
+        flex-direction: column; 
+        
+    }
+}
+
+ 

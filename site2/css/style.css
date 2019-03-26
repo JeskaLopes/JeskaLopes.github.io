@@ -37,8 +37,9 @@ body{
 }
 
 .conteudo{
-    margin: 0 auto;
-    margin-top: 30px; 
+    display:flex;
+    align-items: center;
+    justify-content: center; 
 }
 
  .conteudo__nome{
@@ -84,3 +85,7 @@ body{
     margin: 0 20px; 
 }
 
+@media(max-width: 400px) {.menu{
+    display: none; 
+    }
+}
