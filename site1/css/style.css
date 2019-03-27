@@ -24,7 +24,7 @@ body{
     display: flex; 
     justify-content:center;
     align-items: center; 
-    width: 70%;
+    width: 70.31%;
     margin:0 auto; 
 }
 
@@ -32,7 +32,7 @@ body{
 
 .container__conteudo , .container__ilustracao {
     display:inline-block;
-    width: 40%;
+    width: 46.87%;
     margin: 0 2.2%;
     vertical-align: middle; 
 }
@@ -66,16 +66,13 @@ body{
 }
 
 @media(max-width: 500px) {.container{ 
-    flex-direction: column;}
-    
-    .container{
-        flex-wrap: wrap; 
-    }
+    flex-wrap: wrap;
+    flex-direction: column; 
+}
      .container__conteudo , .container__ilustracao {
         width: 100%; 
         margin-bottom: 5%; 
-        flex-direction: column; 
-        
+            
     }
 }
 
