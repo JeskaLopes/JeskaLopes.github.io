@@ -1,0 +1,136 @@
+
+body{
+    margin:0;   
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.banner{
+    background-image: url(../img/foto-banner.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 500px; 
+}
+
+
+.cabecalho{
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.cabecalho__btn{
+    padding: 20px; 
+    background-color:#829dad; 
+    border:none; 
+    text-transform: uppercase; 
+    color: whitesmoke; 
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 5px; 
+}
+
+
+.sobre{
+    background-color:rgba(22, 22, 22, .8); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    color:whitesmoke; 
+    text-align: center;
+    padding: 40px
+}
+
+h1{
+    font-size:105px;
+    color: whitesmoke; 
+    text-transform: uppercase;
+    letter-spacing: 8px 
+}
+
+h2{
+    color: rgba(255, 255, 255, .7);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+
+.navegacao{
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 1%; 
+    background-color: #a0bed0;
+}
+
+.menu{
+    display:flex; 
+    list-style: none;
+}
+
+.menu__link{
+    text-decoration: none; 
+    color: white;
+    padding: 10px; 
+    
+}
+
+.container__conteudo{
+    padding: 80px 0
+}
+
+
+.siberia__texto{
+    display:flex; 
+    flex-direction:column;
+    justify-content: center;
+    width:30%;
+    margin-left: 20px; 
+}
+
+.siberia__paragrafo{
+    width:70%; 
+}
+
+.conteudo__siberia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__siberia{
+    max-width: 740px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.contato{
+    background-image: url(../img/foto-footer.jpg); 
+    width: 50%; 
+}
+
+
+.footer{
+    background-color: #161616;
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px;
+    color: rgba(255,255,255,.5);
+}
+
+.footer__lista{
+    list-style: none; 
+
+}
+
+.sobre > p {
+    width: 51%
+}
+
+.cabecalho > h2{
+    width: 35%; 
+}
