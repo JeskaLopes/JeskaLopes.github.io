@@ -40,21 +40,22 @@ body{
     align-items: center; 
     color:whitesmoke; 
     text-align: center;
-    padding: 40px
+    padding: 40px; 
 }
 
 h1{
     font-size:105px;
     color: whitesmoke; 
     text-transform: uppercase;
-    letter-spacing: 8px 
+    letter-spacing: 8px;
+    margin-bottom: 10px;
 }
 
 h2{
     color: rgba(255, 255, 255, .7);
     font-size: 22px;
     font-weight: 400;
-    line-height: 28px
+    line-height: 28px;
 }
 
 
@@ -78,7 +79,7 @@ h2{
 }
 
 .container__conteudo{
-    padding: 80px 0
+    padding: 80px 0; 
 }
 
 
@@ -109,16 +110,15 @@ h2{
 
 
 .mosaico{
-    padding-top: 6%; 
-    padding-left: 3%;  
-    padding-right: 3%; 
+    padding: 6% 3% 3% 3%; 
 }
+
+
 .conteudo__groelandia{
     display:flex;
     align-items: center; 
     background-color:black;
     color: white; 
-    
 }
 
 .img__groelandia{
@@ -131,7 +131,6 @@ h2{
     justify-content: center;
     width:30%;
     margin: 0 auto; 
-
 }
 
 
@@ -156,13 +155,13 @@ h2{
     margin: 0 auto; 
 }
 
-
+/*
 .contato{
     background-image: url(../img/foto-footer.jpg); 
     width: 50%; 
 }
 
-
+*/
 
 .footer{
     background-color: #161616;
@@ -175,19 +174,22 @@ h2{
 .footer__lista{
     display:flex;
     align-items: center; 
-    justify-content: center; 
+    justify-content: space-evenly;  
     list-style: none; 
 
 }
 
 .footer > a{
     margin: 0 auto; 
+    text-decoration: none; 
+    color: #829dad; 
 }
 
+
 .sobre > p {
-    width: 51%
+    width: 51%;
 }
 
 .cabecalho > h2{
-    width: 35%; 
+    width: 31%; 
 }
