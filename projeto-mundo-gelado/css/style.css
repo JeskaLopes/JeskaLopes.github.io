@@ -4,6 +4,13 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth; 
+}
+
+a:hover{
+    color: #3c6360; 
+}
 
 .banner{
     background-image: url(../img/foto-banner.jpg);
@@ -11,6 +18,7 @@ body{
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 500px; 
+    
 }
 
 
@@ -19,6 +27,7 @@ body{
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
+    
 }
 
 .cabecalho__btn{
@@ -84,7 +93,7 @@ h2{
 
 
 .siberia__texto{
-    display:flex; 
+    text-align: left; 
     flex-direction:column;
     justify-content: center;
     width:30%;
@@ -111,6 +120,7 @@ h2{
 
 .mosaico{
     padding: 6% 3% 3% 3%; 
+    border-radius: 10px;
 }
 
 
@@ -119,10 +129,12 @@ h2{
     align-items: center; 
     background-color:black;
     color: white; 
+    border-radius: 10px;
 }
 
-.img__groelandia{
+.img__groelandia {
     width: 50%;
+    border-radius: 10px;
 }
 
 .groelandia__texto{
@@ -140,11 +152,13 @@ h2{
     align-items: center; 
     background-color:black;
     color: white; 
+    border-radius: 10px;
     
 }
 
 .img__antartida{
     width: 50%;
+    border-radius: 10px;
 }
 
 .antartida__texto{
@@ -191,5 +205,7 @@ h2{
 }
 
 .cabecalho > h2{
-    width: 31%; 
+    width: 34%; 
+    text-align: center; 
 }
+
