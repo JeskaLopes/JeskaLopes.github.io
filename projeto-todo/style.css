@@ -43,6 +43,12 @@ input{
     padding: 20px;
 }
 
+#selecionarTodas:hover,#excluirTodas:hover{
+    background-color:rgb(202, 145, 216);
+    -webkit-transition: 0,2s; 
+    transition: 0,2s;
+}
+
 .principal{
     width: 100%;
     display: block;
@@ -53,6 +59,12 @@ button{
     background: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+    background-color:  rgb(199, 196, 196);
+    -webkit-transition: 0.2s; 
+     transition: 0,2s;
 }
 
 span{
@@ -66,8 +78,8 @@ span{
     justify-content: space-between; 
     margin: 0 30px;   
     border-bottom: 1px solid rgb(199, 196, 196);
-
 }
+
 
 a{
     font-size: 10px;
